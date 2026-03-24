@@ -1,0 +1,10 @@
+.ignoreme
+
+# Some common things to ignore
+.vscode
+.terraform*
+terraform.tfstate
+terraform.tfstate.backup
+node_modules
+
+test-results
