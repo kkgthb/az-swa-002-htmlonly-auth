@@ -7,4 +7,5 @@ terraform.tfstate
 terraform.tfstate.backup
 node_modules
 
-test-results
+output
+.env
