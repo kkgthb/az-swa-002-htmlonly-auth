@@ -16,4 +16,8 @@ swa deploy `
     --env 'production' `
     --app-location './src/web'
 
+# Clean up just for good measure
+$stale_config = [System.IO.Path]::GetFullPath([System.IO.Path]::Combine($folder_with_swa_cli_config_json_in_it, 'src', 'web', 'staticwebapp.config.json'))
+if (Test-Path $stale_config) { Remove-Item $stale_config }
+
 Pop-Location
