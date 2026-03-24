@@ -9,3 +9,5 @@ node_modules
 
 output
 .env
+
+src/web/staticwebapp.config.json
